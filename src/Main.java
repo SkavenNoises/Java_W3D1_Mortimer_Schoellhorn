@@ -82,5 +82,11 @@ public class Main {
 		System.out.println(physicalBook.toString());
 		System.out.println(electronicBook.toString());
 
+		Canine dog = new Canine("Fido", "Some mutt", 200, 20, 2, "Mutt");
+		Feline cat = new Feline("Tom", "Bit cartoonish", 200, 15, 2, "Some cat");
+
+		System.out.println(dog.toString());
+		System.out.println(cat.toString());
+
 	}
 }
